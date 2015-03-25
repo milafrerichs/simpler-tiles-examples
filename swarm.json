@@ -1,0 +1,18 @@
+{
+  "app_name": "simple-tile-server",
+  "services": [
+    {
+      "service_name": "tile-server",
+      "components": [
+        {
+          "component_name": "tile-server-world",
+          "image": "registry.giantswarm.io/$username/tile-server-world:latest",
+          "ports": ["9292/tcp"],
+          "domains": {
+            "tile-server-world-$username.gigantic.io": "9292"
+          }
+        }
+      ]
+    }
+  ]
+}
