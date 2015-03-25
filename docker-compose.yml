@@ -1,0 +1,10 @@
+map:
+  build: .
+  ports:
+    - 3332:9292
+
+simplemap:
+  build: .
+  command: puma simple.ru
+  ports:
+    - 3331:9292
