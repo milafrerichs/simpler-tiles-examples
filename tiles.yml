@@ -1,0 +1,35 @@
+- name: Natural Earth EPSG 4326
+  srs: "EPSG:4326"
+  bgcolor: "#ffffff"
+  filename: ne_110m_admin_0_countries_lakes.shp
+  layername: ne_110m_admin_0_countries_lakes
+  styles:
+    stroke: '#002240'
+    weight: '1'
+    line-join: 'round'
+    fill: '#ffffff'
+- name: Natural Earth EPSG 4326
+  srs: "WGS84"
+  bgcolor: "#000000"
+  filename: ne_110m_admin_0_countries_lakes.shp
+  layername: ne_110m_admin_0_countries_lakes
+  styles:
+    stroke: '#002240'
+    weight: '1'
+    line-join: 'round'
+    fill: '#ffffff'
+- name: Natural Earth EPSG Mercator
+  srs: "EPSG:3395"
+  bgcolor: "#000000"
+  filename: ne_110m_admin_0_countries_lakes.shp
+  layername: ne_110m_admin_0_countries_lakes
+  styles:
+    stroke: '#002240'
+    weight: '2'
+    line-join: 'round'
+    fill: '#f00000'
+- name: Natural Earth EPSG Mercator
+  srs: "EPSG:3395"
+  bgcolor: "#000000"
+  filename: ne_110m_admin_0_countries_lakes.shp
+  layername: ne_110m_admin_0_countries_lakes
